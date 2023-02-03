@@ -1,0 +1,133 @@
+* {
+    font-family: 'Monaco', sans-serif;
+}
+html{
+    scroll-behavior: smooth
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+}
+
+body, header{
+    background-color: #f7e7ce;
+}
+.navlink{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f7e7ce;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navlink li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: lightblue;
+}
+
+.active {
+    background-color: lightslategray;
+}
+
+#about{
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-right: 125px;
+    padding-left: 125px;
+}
+
+#education{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-right: 125px;
+    padding-left: 125px;
+    /* background-color: #525E5E;
+    color: #FBF7F4; */
+}
+
+/* #coursework{
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    align-content: center;
+}
+
+#skills{
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    align-content: center;
+} */
+
+#project{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-right: 125px;
+    padding-left: 125px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.col{
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    /* align-items: center;
+    align-content: center; */
+    padding-left: 500px;
+    padding-bottom: 400px;
+    justify-content: space-around;
+}
+
+.tri-column {
+    margin: 15px;
+    height: 625px;
+    align-self: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
