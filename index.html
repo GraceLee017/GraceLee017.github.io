@@ -2,6 +2,7 @@
 
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" href="styles/style.css">
     </head>
 
@@ -19,20 +20,32 @@
         
         <!-- Home -->
         <div id = home>
-            <h1 id="name">GRACE LEE</h1>
-            <a href="https://github.com/GraceLee017"><img src="pictures/github.png" width="25" height = "20"></a>
-            <a href="https://www.linkedin.com/in/gracelee1117/"><img src="pictures/linkedin.png" width="25" height = "20"></a>
-            <a href="mailto:grace.lee0170@gmail.com"><img src="pictures/gmail.png" width="25" height = "20"></a><br>
-            <img src="pictures/about.png" alt="about" width="400" height="333">
+            <div>
+                <h1 id="name">GRACE LEE</h1>
+                <h2 id = "title">Programmer</h2>
+                <a href="https://github.com/GraceLee017"><img src="pictures/github.png" width="25" height = "20" style="max-width:100%;"></a>
+                <a href="https://www.linkedin.com/in/gracelee1117/"><img src="pictures/linkedin.png" width="25" height = "20" style="max-width:100%;"></a>
+                <a href="mailto:grace.lee0170@gmail.com"><img src="pictures/gmail.png" width="25" height = "20" style="max-width:100%;"></a>
+            </div>
+
+            <div>
+                <img src="pictures/about.png" alt="about" width="400" height="350" style="max-width:100%;">
+            </div>
 
         </div>
 
-        <!-- ABout Me -->
+        
+
+        <!-- About Me -->
         <div id = "about">
-            <h3 class="subtitles"> ABOUT ME</h3>
-            <img src="pictures/grace.png" alt="grace" width="500" height="700">
+            <div>
+                <img src="pictures/grace.png" alt="grace" width="350" height="480" style="max-width:100%;">
+            </div>
+            <div id="about-me">
+                <h3 class="subtitles"> ABOUT ME</h3>
+                <p> Hello I'm Grace. I am a recent graduate from University of California, Riverside in Computer Science. Searching for an entry level job in programming.</p>
+            </div>
             
-            <p> Hello I'm Grace. I am a recent graduate in Computer Science from University of California, Riverside. Searching for an entry level job as a software engineer.</p>
         </div>
 
         <!-- Education -->
@@ -72,7 +85,7 @@
                 <div class='row'>
                     <div class = 'column'>
                         <div class='tri-column'>
-                            <img src="pictures/twitter.png" alt="twitter" width="400" height="333">
+                            <img src="pictures/twitter.png" alt="twitter" width="400" height="333" style="max-width:100%;">
                             <a href="https://github.com/GraceLee017/CS179TwitterAnalysis"><p class = title> Artist Twitter Popularity Analysis</p></a>
                             <p>Scraped Twitter using the Twitter API and Tweepy Paginator for artists’ tweets and replies
                                 Cleaned and processed the raw data and stored it into a database to connect to the frontend</p><br>
@@ -82,7 +95,7 @@
                     </div>
                     <div class = 'column'>
                         <div class='tri-column'>
-                            <img src="pictures/spotifyu.png" alt="spotify" width="380" height="333">
+                            <img src="pictures/spotifyu.png" alt="spotify" width="380" height="333" style="max-width:100%;">
                             <a href="https://github.com/jessejamesss/Spotify"><p class = "title"> Spotify U</p></a>
                             <p>Analyzed a user’s favorite track and recommended similar songs based on its track traits using the Spotify Dataset.
                                 Applied standard deviation to calculate which track traits appeal the most to the user.
@@ -94,7 +107,7 @@
                 <div class = 'row'>
                     <div class = 'column'>
                         <div class='tri-column'>
-                            <img src="pictures/airbnb.png" alt="Airbnb" width="400" height="333">
+                            <img src="pictures/airbnb.png" alt="Airbnb" width="400" height="333" style="max-width:100%;">
                             <a href="https://github.com/GraceLee017/Text-Analysis-of-Airbnb-Reviews"><p class = title> Text Analysis of Airbnb Reviews</p></a>
                             <p>Collaborated with others to performed text analysis on Airbnb reviews in LA to determine which factors create a good stay at an Airbnb.
                                 Cleaned the data and performed TF-IDF analysis to calculate word relevancy in a review</p><br>
@@ -103,7 +116,7 @@
                     </div>
                     <div class = 'column'>
                         <div class='tri-column'>
-                            <img src="pictures/cafe.png" alt="cafe" width="400" height="333">
+                            <img src="pictures/cafe.png" alt="cafe" width="400" height="333" style="max-width:100%;">
                             <a href="https://github.com/GraceLee017/CS166_FinalProject"><p class = title> Cafe application</p></a>
                                 <p>Created an app that allowed customers to place and edit their orders by creating and executing SQL queries given a database.
                                 Created a terminal UI for different users including customers, employees, and the manager</p></br>
