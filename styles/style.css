@@ -62,11 +62,12 @@ li a:hover {
 }
 
 #home{
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    padding-top: 75px;
+    padding-top: 150px;
     padding-bottom: 50px;
     padding-right: 125px;
     padding-left: 125px;
@@ -77,7 +78,12 @@ li a:hover {
     font-weight: bolder;
 }
 
+#title {
+    font-size: 30px;
+}
+
 #about{
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -86,6 +92,13 @@ li a:hover {
     padding-bottom: 50px;
     padding-right: 125px;
     padding-left: 125px;
+}
+
+#about-me{
+    width: 600px; 
+    text-align: left;
+    line-height: 2.0;
+    display: inline-block;
 }
 
 #education{
@@ -104,7 +117,6 @@ li a:hover {
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    padding-bottom: 75px;
     padding-right: 125px;
     padding-left: 125px;
 }
