@@ -89,7 +89,6 @@ li a:hover {
     align-items: center;
     align-content: center;
     padding-top: 75px;
-    padding-bottom: 50px;
     padding-right: 125px;
     padding-left: 125px;
 }
@@ -110,12 +109,22 @@ li a:hover {
     padding-left: 125px;
 }
 
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+td{
+    border-spacing: 2px;
+}
+
 #school{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
+    padding-top: 10px;
     padding-right: 125px;
     padding-left: 125px;
 }
