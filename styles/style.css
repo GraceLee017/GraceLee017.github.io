@@ -28,7 +28,7 @@ h3 {
 }
 
 body, header{
-    background-image: url('pictures/background.jpeg');
+    background-image: url('/pictures/background.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -38,7 +38,7 @@ body, header{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: url('/Users/gracelee/Downloads/Projects/Website/pictures/background1.jpeg');
+    background-image: url('/pictures/background.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
