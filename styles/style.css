@@ -28,14 +28,20 @@ h3 {
 }
 
 body, header{
-    background-color: #f7e7ce;
+    background-image: url('pictures/background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .navlink{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #f7e7ce;
+    background-image: url('/Users/gracelee/Downloads/Projects/Website/pictures/background1.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     position: fixed;
     top: 0;
     width: 100%;
